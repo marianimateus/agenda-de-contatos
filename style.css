@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    background-color: #757575;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.container {
+    display: inline-block;
+}
+
+/* inputs */
+
+label {
+    display: flex;
+    margin-right: 10px;
+    width: 10em;
+    font-style: bold;
+}
+
+.nome,
+.telefone {
+    padding-left: 0px;
+    display: block;
+}
+
+form input {
+    display: block;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 8px 10px 0 0;
+}
+
+/* botão */ 
+
+.botao {
+    background-color: #009432;
+    color: #0f0e0e;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+h1 {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.registro {
+    margin: 16px 0 0 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 20px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+
+
+/* tabela */
+
+table {
+    width: 100%;
+}
+
+th {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.39);
+    padding: 16px;
+    font-size: 18px;
+}
